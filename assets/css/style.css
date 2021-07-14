@@ -74,64 +74,6 @@ nav a{
 .nav-right i{
     margin-right: 8px;
 }
-/* li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-.header{
-    border-bottom: 1px solid #E2E8F0;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1.5rem;
-}
-
-.hamburger {
-    display: none;
-}
-
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #101010;
-}
-
-.nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-item {
-    margin-right: 36px;
-}
-
-.nav-link{
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #FFFFFF;
-}
-
-.nav-link:hover{
-    color: #482ff7;
-}
-
-.nav-logo {
-    font-size: 2.1rem;
-    font-weight: 500;
-    color: #482ff7;
-} */
 /*-----------
     home 
  -----------*/
@@ -284,6 +226,17 @@ a {
     transition: transform 1s; 
     
 }
+.news-btn{
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 24px;
+    color: #E02C6D;
+    border: 2px solid #E02C6D !important;
+    border: none;
+    margin-top: 27px;
+    cursor: pointer;
+}
 /*-----------
     parners
 ----------- */
@@ -330,11 +283,6 @@ footer{
     width: 100%;
     height: 100%;
 }
-/* .footer-icon > i{
-    margin-right: 14px;
-    display: flex;
-    justify-content: center;
-} */
 .footer-icon{
     font-size: 15px;
     margin-right: 14px;
@@ -377,14 +325,10 @@ footer{
         width: 360px;
     }
     .home-title>h1{
-        /* font-size: 36px;
-        line-height: 50px; */
         font-size: 44px;
         line-height: 60px;
     }
     .home-banner{
-        /* width: 329px;
-        height: 259px; */
         margin-top: 50px;
         width: 340px;
         height: 298px;
@@ -392,11 +336,11 @@ footer{
 
     /* plyaer */
     .player{
-        width: 385px;
-        height: 500px;
+        width: 357px;
+        height: 488px;
     }
     .player-img > img{
-        height: 300px;
+        height: 280px;
     }
 
     /* match */
@@ -417,10 +361,19 @@ footer{
         height: 248px;
     }
 
-    /* footer */
-    /* footer{
-        visibility: hidden;
-    } */
+    /* new */
+    .news-img{
+        width: 372px;
+    }
+    .news-btn{
+        margin-left: 20px;
+    }
+
+    /* partner */
+    .patner{
+        margin-top: 20px;
+    }
+
     .footer-img{
         width: 271px;
         height: 63px;
@@ -456,8 +409,6 @@ footer{
         width: 278px;
     }
     .home-title>h1{
-        /* font-size: 36px;
-        line-height: 50px; */
         font-size: 44px;
         line-height: 60px;
     }
@@ -480,8 +431,18 @@ footer{
         width: 328px;
         height: 248px;
     }
+
+    /* news */
     .news-img{
         width: 350px;
+    }
+    .news-btn{
+        margin-left: 10px;
+    }
+
+    /* partner  */
+    .patner{
+        margin: 20px 20px 0 0;
     }
     /* footer */
     .footer-img{
@@ -489,46 +450,3 @@ footer{
         height: 63px;
     }    
 }
-
-/* @media only screen and (max-width: 768px) {
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-
-    .nav-item {
-        margin: 2.5rem 0;
-    }
-
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        -webkit-transform: translateY(8px) rotate(45deg);
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-        -webkit-transform: translateY(-8px) rotate(-45deg);
-        transform: translateY(-8px) rotate(-45deg);
-    }
-} */
